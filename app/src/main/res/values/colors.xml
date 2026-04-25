@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Modern Sport Theme (Indigo & Amber) -->
+    <color name="primary">#3F51B5</color>
+    <color name="primary_variant">#303F9F</color>
+    <color name="on_primary">#FFFFFF</color>
+
+    <color name="secondary">#FFC107</color>
+    <color name="secondary_variant">#FFA000</color>
+    <color name="on_secondary">#000000</color>
+
+    <color name="background">#F8F9FA</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="error">#B00020</color>
+</resources>

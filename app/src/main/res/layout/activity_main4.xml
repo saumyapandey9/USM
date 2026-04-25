@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F9FA"
+    tools:context=".MainActivity4">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="Choose Sport"
+        android:textColor="#1A237E"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:padding="16dp"
+            android:useDefaultMargins="true">
+
+            <!-- Cricket -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button3"
+                style="@style/Widget.Material3.Button.TonalButton"
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                android:text="Cricket"
+                android:textSize="16sp"
+                app:cornerRadius="20dp"
+                app:icon="@android:drawable/ic_menu_gallery"
+                app:iconGravity="top"
+                app:iconSize="40dp" />
+
+            <!-- Badminton -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button24"
+                style="@style/Widget.Material3.Button.TonalButton"
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                android:text="Badminton"
+                android:textSize="16sp"
+                app:cornerRadius="20dp"
+                app:icon="@android:drawable/ic_menu_gallery"
+                app:iconGravity="top"
+                app:iconSize="40dp" />
+
+            <!-- Football -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button22"
+                style="@style/Widget.Material3.Button.TonalButton"
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                android:text="Football"
+                android:textSize="16sp"
+                app:cornerRadius="20dp"
+                app:icon="@android:drawable/ic_menu_gallery"
+                app:iconGravity="top"
+                app:iconSize="40dp" />
+
+            <!-- Basketball -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button21"
+                style="@style/Widget.Material3.Button.TonalButton"
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                android:text="Basketball"
+                android:textSize="16sp"
+                app:cornerRadius="20dp"
+                app:icon="@android:drawable/ic_menu_gallery"
+                app:iconGravity="top"
+                app:iconSize="40dp" />
+
+            <!-- Volleyball -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button23"
+                style="@style/Widget.Material3.Button.TonalButton"
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                android:text="Volleyball"
+                android:textSize="16sp"
+                app:cornerRadius="20dp"
+                app:icon="@android:drawable/ic_menu_gallery"
+                app:iconGravity="top"
+                app:iconSize="40dp" />
+
+            <!-- Tennis -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button26"
+                style="@style/Widget.Material3.Button.TonalButton"
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                android:text="Tennis"
+                android:textSize="16sp"
+                app:cornerRadius="20dp"
+                app:icon="@android:drawable/ic_menu_gallery"
+                app:iconGravity="top"
+                app:iconSize="40dp" />
+
+        </GridLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
